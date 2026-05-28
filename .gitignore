@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Runtime artifacts
+8k_state.json
+8k_state.json.tmp
+*.jsonl
+*.ndjson
+*.log
+filings.txt
+
+# Claude Code
+.claude/
+CLAUDE.local.md
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
