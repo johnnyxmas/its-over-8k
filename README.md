@@ -1,5 +1,7 @@
 # its-over-8k
 
+![its-over-8k](itsover8k.png)
+
 Polls SEC EDGAR for new 8-K filings disclosing cybersecurity incidents and extracts indicators of compromise (IOCs) — IPs, domains, URLs, hashes, CVEs, threat actor names, malware families — into structured JSON Lines.
 
 Built around the observation that 8-Ks have no IOC standard, so a two-layered extractor (precision regex + local LLM) handles the prose-heavy reality of these disclosures.
